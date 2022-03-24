@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+html{
+font-size: 62.5%;
+}
+h1,h2,h3,h4,h5,h6{
+color: white;
+}
+/* stilos a header section */
+.header{
+width: 100%;
+}
+.header_section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color :#1C1C1C;
+padding: 10px;
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+.header_section div{
+    cursor: pointer;
+}
+.header_section-cuenta{
+display: flex;
+color: white;
+}
+.header_section-cuenta span{
+width: 30px;
+}
+.header_section-cuenta span i{
+font-size: 20px;
+}
+.header_section-cuenta div p{
+font-size: 1.4rem;
+}
+.header_section-cuenta {
+cursor: pointer;
+}
+.header_section-img{
+width: 70px;
+}
+.header_nav-buscar input{
+width: 200px;
+height: 30px;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid gray;
+color: white;
+outline: none;
+font-size: 1.6rem;
+}
+.header_nav-buscar input::placeholder{
+color: white;
+font-size: 1.7rem;
+padding: 10px;
+
+}
+/* stilos a header nav */
+.header_nav{
+height: 160px;
+display: flex;
+justify-content: space-between;
+background-color :#363535;
+align-items: center;
+padding: 30px;
+}
+.header_nav-img{
+width: 110px;
+cursor: pointer;
+}
+.header_nav-menu {
+margin: 10px;
+font-size: 1.55rem;
+cursor: pointer;
+}
+.header_nav-menu h5 {
+    margin: 10px;
+    font-size: 1.55rem;
+    }
+.header_nav-menu{
+display: flex;
+}
+.ccc{
+background-color: #1C1C1C;
+}
+
+/* stilos a main */
+.main{
+    width: 100%;
+    height: 100h;
+    background-color: #303133;
+    scroll-behavior: smooth;
+}
+.main_section .main_section-title h1{
+    font-size: 30rem;
+    color: #00B8FC;
+    font-weight: 900;
+    cursor: default ;
+}
+.main_section-especificaciones{
+    color: white;
+    padding:  50px;
+    position: relative;
+    bottom: 90px;
+    z-index: 3;
+}
+.main_section-especificaciones h2{
+   cursor: default ;
+    font-size: 3.0rem;
+}
+.main_section-especificaciones .especificaciones-precio{
+    margin: 10px;
+    margin-top:40px;
+    font-size: 3.3rem;
+    font-weight: bold;
+    cursor: default ;
+  
+}
+.button_compra{
+    color: #02B2F3;
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main_container-asistencia{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+.especificaciones-precio{
+    font-size: 1.8rem;
+}
+
+.main_section-img{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.main_section-img .section_img-detras{
+    bottom: 185px;
+    position: absolute;
+    border-radius: 100%;
+    left: 430px;
+    width: 550px;
+}
+.main_section-img .section_img-alante{
+    width:350px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 185px;
+    left: 515px;
+    z-index: 1;
+}
+.main_section-img .section_img_detras-ultimo{
+    bottom: 20px;
+    position: absolute;
+    left: 430px;
+    width: 550px;
+    border-radius: 50%;
+}
